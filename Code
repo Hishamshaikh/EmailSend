@@ -12,6 +12,6 @@ with smtplib.SMTP('smtp.gmail.com', 587) as smtp:
     body = "How about dinner at 6pm this Saturday?"
 
     msg = f"Subject: {subject}\n\n{body}"
-        smtp.sendmail('xyz@gmail.com', 'hishamshaikh@gofynd.com', msg)
+        smtp.sendmail('xyz@gmail.com', 'zzz@gmail.com', msg)
 
     print("Email Sent")
